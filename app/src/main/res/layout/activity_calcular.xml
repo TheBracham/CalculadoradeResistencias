@@ -22,7 +22,7 @@
             android:id="@+id/Clean"
             android:layout_margin="2dp"
             android:background="#424242"
-            android:text="h"
+            android:text="C"
             android:textColor="#FF5722" />
 
         <Button
