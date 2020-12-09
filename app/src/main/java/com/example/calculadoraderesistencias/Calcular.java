@@ -13,7 +13,7 @@ public class Calcular extends AppCompatActivity {
         setContentView(R.layout.activity_calcular);
     }
 
-    public void volver(View v) {
+    public void volvr(View v) {
         finish();
     }
 
