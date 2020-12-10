@@ -14,11 +14,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
     }
 
 
-    public void Calcular(View view) {
-             Intent i = new Intent(this, Calcular.class );
+    public void Ir(View view) {
+             Intent i = new Intent(this, Resistencia_Serie.class );
              startActivity(i);
     }
 
