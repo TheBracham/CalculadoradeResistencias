@@ -55,12 +55,21 @@
             android:id="@+id/calcular2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Button" />
+            android:onClick="ResistenciaP"
+            android:text="Calcular" />
 
         <TextView
             android:id="@+id/tv2"
             android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:text="Resultado"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Resultado" />
+            android:onClick="recargarP"
+            android:text="Borrar Resultado" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

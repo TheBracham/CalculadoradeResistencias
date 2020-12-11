@@ -23,6 +23,11 @@ public class MainActivity extends AppCompatActivity {
              startActivity(i);
     }
 
+    public void Ir2(View view) {
+        Intent i = new Intent(this, Resistencia_Paralela.class );
+        startActivity(i);
+    }
+
 
 
 }

@@ -9,6 +9,7 @@ import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class Resistencia_Paralela extends AppCompatActivity {
 
@@ -54,6 +55,7 @@ public class Resistencia_Paralela extends AppCompatActivity {
 
         //***Operacion***//
 
+
         if(selec.equals("Ω")){
             double resp=1/(1/r5+1/r6+1/r7+1/r8);
             String resu=String.valueOf(resp);
@@ -65,11 +67,17 @@ public class Resistencia_Paralela extends AppCompatActivity {
             resu=resu +"Ω";
             tv2.setText(resu);
         }else if(selec.equals("MΩ")) {
-            double resp3 = 1/(1/r5+1/r6+1/r7+1/r8);
+            double resp3 = 1 / (1 / r5 + 1 / r6 + 1 / r7 + 1 / r8);
             String resu = String.valueOf(resp3);
             resu = resu + "Ω";
             tv2.setText(resu);
         }
+    }
+
+    public void recargarP(View view)
+    {
+        if(view.getId()==R.id.tv1);
+        tv2.setText("Resultado borrado zukulentamente");
     }
 
 }

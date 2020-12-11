@@ -18,7 +18,7 @@
             android:textSize="30sp" />
 
         <Button
-            android:id="@+id/Ir"
+            android:id="@+id/button1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="Ir"
@@ -33,9 +33,10 @@
             android:textSize="30sp" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/button2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="Ir2"
             android:text="Ir" />
     </LinearLayout>
 
