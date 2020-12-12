@@ -33,10 +33,24 @@
             android:textSize="30sp" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/btn_enviar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="Ir2"
+            android:text="Ir" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Formulas"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="Ir3"
             android:text="Ir" />
     </LinearLayout>
 

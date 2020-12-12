@@ -28,6 +28,11 @@ public class MainActivity extends AppCompatActivity {
         startActivity(i);
     }
 
+    public void Ir3(View view) {
+        Intent i = new Intent(this, Formulas.class );
+        startActivity(i);
+    }
+
 
 
 }

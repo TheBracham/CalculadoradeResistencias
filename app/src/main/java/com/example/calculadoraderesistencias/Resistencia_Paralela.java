@@ -33,7 +33,7 @@ public class Resistencia_Paralela extends AppCompatActivity {
         et8=(EditText)findViewById(R.id.et8);
         tv2=(TextView)findViewById(R.id.tv2);
 
-        spinner2 = (Spinner)findViewById(R.id.spinner2);
+        spinner2 = (Spinner)findViewById(R.id.spinner);
         String[]opciones={"Ω", "kΩ", "MΩ"};
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,android.R.layout.simple_spinner_item, opciones);
         spinner2.setAdapter(adapter);
@@ -77,7 +77,10 @@ public class Resistencia_Paralela extends AppCompatActivity {
     public void recargarP(View view)
     {
         if(view.getId()==R.id.tv1);
-        tv2.setText("Resultado borrado zukulentamente");
+        tv2.setText("");
+
+        Toast toast =  Toast.makeText(this, "Resultado borrado", Toast.LENGTH_LONG);
+        toast.show();
     }
 
 }

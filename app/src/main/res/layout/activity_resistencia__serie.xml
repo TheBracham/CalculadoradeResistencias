@@ -46,12 +46,12 @@
             android:inputType="number" />
 
         <Spinner
-            android:id="@+id/spinner2"
+            android:id="@+id/spinner"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/btn_enviar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="ResistenciasS"
@@ -61,8 +61,16 @@
         <TextView
             android:id="@+id/tv1"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="58dp"
             android:text="Resultado" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="recargarP"
+            android:text="Borrar Resultado"
+            android:textSize="18sp" />
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
